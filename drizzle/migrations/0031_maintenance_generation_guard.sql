@@ -1,0 +1,4 @@
+CREATE OR REPLACE FUNCTION public.guard_maintenance_generation() RETURNS trigger LANGUAGE plpgsql SECURITY DEFINER SET search_path=public AS $$ BEGIN IF coalesce((SELECT enabled FROM public.site_maintenance WHERE id=true),true) AND NOT public.has_role(NEW.user_id,'admin'::public.app_role) THEN RAISE EXCEPTION 'SITE_MAINTENANCE: Website par kaam chal raha hai'; END IF; RETURN NEW; END; $$;
+REVOKE ALL ON FUNCTION public.guard_maintenance_generation() FROM PUBLIC,anon,authenticated;
+CREATE TRIGGER maintenance_generation_guard BEFORE INSERT ON public.generations FOR EACH ROW EXECUTE FUNCTION public.guard_maintenance_generation();
+CREATE TRIGGER maintenance_api_debit_guard BEFORE INSERT ON public.api_credit_transactions FOR EACH ROW WHEN (NEW.kind = 'usage') EXECUTE FUNCTION public.guard_maintenance_generation();

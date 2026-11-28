@@ -1,0 +1,556 @@
+MODEL STORY ENGINE — COMPLETE PROMPT / SPECIFICATION
+
+ENGINE NAME
+Model Story Engine
+
+PURPOSE
+Generate complete original moral stories from:
+1. Title
+2. First 10-Second Hook
+3. Complete Story Twist
+4. Moral
+
+The engine must preserve its own independent moral-story logic and must remain separate from any Horror Story Engine when later integrated into a unified STORY GENERATOR.
+
+CORE STORY PHILOSOPHY
+- Story-first generation.
+- The user’s Title, Hook, Twist, and Moral are high-priority inputs.
+- The moral must emerge through events, decisions, consequences, and resolution rather than repetitive preaching.
+- Storytelling should be dialogue-heavy with controlled narration.
+- The story should feel naturally written and suitable for YouTube/animation.
+- Reference stories provide structural storytelling DNA, not text or plot material to copy.
+- The story should progress emotionally and causally.
+- The twist should be built toward rather than randomly inserted.
+- Earlier details can return later as setup/payoff.
+
+USER INPUTS
+TITLE
+FIRST 10-SECOND HOOK
+COMPLETE STORY TWIST
+MORAL
+
+OPTIONS / SELECTORS
+The existing documented engine does not define additional formal selectors such as genre, POV, character count, duration, tone, or scene count.
+Do not invent such controls and treat them as existing engine logic.
+
+CORE GENERATION PIPELINE
+1. Parse Title, Hook, Twist, Moral.
+2. Establish protagonist.
+3. Establish only necessary supporting characters.
+4. Establish the initial situation quickly.
+5. Activate the hook.
+6. Introduce the first conflict.
+7. Create temporary hope / apparent solution where appropriate.
+8. Escalate the problem.
+9. Reach an emotional low point.
+10. Introduce a clue, discovery, small detail, or old knowledge.
+11. Deliver the user-defined twist.
+12. Build and execute the climax.
+13. Deliver narrative payoff.
+14. Show consequences.
+15. Close with the moral.
+
+STORY FORMULA
+HOOK
+→ SETUP
+→ FIRST CONFLICT
+→ FALSE HOPE
+→ BIG PROBLEM
+→ ESCALATION
+→ EMOTIONAL LOW POINT
+→ CLUE / DISCOVERY
+→ TWIST
+→ CLIMAX
+→ PAYOFF
+→ CONSEQUENCE
+→ MORAL ENDING
+
+HOOK SYSTEM
+- Avoid slow, unnecessary introductions.
+- Begin with an active situation, problem, unusual event, or emotionally important moment.
+- Create immediate curiosity.
+- Make the audience want to know what happens next.
+- The user-provided hook has priority.
+
+CHARACTER SYSTEM
+PROTAGONIST:
+- Carries the main emotional journey.
+- Has a recognizable situation and meaningful problem.
+- Has something to lose.
+- Makes meaningful decisions.
+- Participates in the climax.
+- Connects to the moral.
+
+SUPPORTING CHARACTERS:
+- Must have a narrative purpose.
+- May challenge, help, inform, pressure, witness, or emotionally support the protagonist.
+
+ANTAGONISTIC FORCE:
+- May be a person, circumstance, deception, greed, social pressure, misunderstanding, natural event, or bad decision.
+- A conventional villain is not mandatory.
+
+EMOTIONAL BUILDUP
+Typical progression:
+NORMAL
+→ CONCERN
+→ PRESSURE
+→ HOPE
+→ SETBACK
+→ EMOTIONAL BREAK
+→ DISCOVERY
+→ RELIEF / EMOTIONAL RELEASE
+→ RESOLUTION
+
+The exact emotions depend on the story. Emotional intensity should progress rather than remain flat.
+
+CONFLICT SYSTEM
+Conflict should directly affect the protagonist and give the audience a reason to continue.
+Possible areas include:
+- Survival
+- Family
+- Trust
+- Money
+- Greed
+- Poverty
+- Betrayal
+- Social pressure
+- Sacrifice
+- Deception
+- Community problems
+- Moral choices
+
+ESCALATION SYSTEM
+SMALL PROBLEM
+→ COMPLICATION
+→ BIGGER CONSEQUENCE
+→ SERIOUS THREAT
+→ EMOTIONAL CRISIS
+→ APPARENT HOPELESSNESS
+→ DISCOVERY
+→ RESOLUTION
+
+Escalation should be causally connected wherever practical.
+
+LOW-POINT / EMOTIONAL BREAK
+- The protagonist reaches the point of least apparent control.
+- It increases emotional investment.
+- It makes the climax and resolution feel earned.
+- It must arise from the established conflict rather than being random.
+
+TWIST SYSTEM
+- The user-provided twist is a core generation constraint.
+- Build toward it.
+- Foreshadow it where practical.
+- It should recontextualize earlier events.
+- It should answer an important question.
+- It should increase emotional payoff.
+- It should lead naturally into the climax.
+- Do not introduce an unrelated twist merely for surprise.
+
+SETUP / PAYOFF SYSTEM
+INTRODUCE DETAIL
+→ MAKE DETAIL APPEAR ORDINARY
+→ DEVELOP CONFLICT
+→ RETURN TO DETAIL
+→ DETAIL BECOMES IMPORTANT
+→ PAYOFF
+
+A previously introduced object, person, statement, decision, or detail can become important later.
+
+CLIMAX SYSTEM
+- The climax is the highest-stakes point.
+- It should resolve the central narrative question.
+- The protagonist generally faces a meaningful decision, truth, confrontation, consequence, or action.
+- The climax should demonstrate the story’s moral through events.
+
+PAYOFF SYSTEM
+- Earlier setup should matter later.
+- A seemingly small act can become important.
+- An overlooked detail can become the solution.
+- A sacrifice can produce a later consequence.
+- A hidden truth can become important at the climax.
+- Payoff should feel earned.
+
+MORAL / LESSON SYSTEM
+- The Moral is user-controlled.
+- Preserve the intended lesson.
+- Demonstrate the moral through character actions and consequences.
+- Do not replace the user’s moral with an unrelated lesson.
+- Avoid turning the whole story into a lecture.
+- The final moral statement should naturally connect to what happened.
+
+ENDING SYSTEM
+TWIST
+→ CLIMAX
+→ CONSEQUENCE
+→ EMOTIONAL RESOLUTION
+→ MORAL
+
+Do not stop immediately after the twist. Provide complete resolution and payoff.
+
+DIALOGUE RULES
+- Dialogue is a major storytelling component.
+- Character name appears on its own line.
+- Spoken dialogue appears directly below it.
+- Dialogue should sound natural and spoken.
+- Dialogue should be character-specific.
+- Dialogue should advance conflict, emotion, revelation, decisions, or relationships.
+- Avoid unnecessary exposition inside dialogue.
+
+Required format:
+Character Name
+Dialogue
+
+NARRATION RULES
+- Use narration for scene setup, location, time, transitions, necessary context, and actions that are difficult to express naturally through dialogue.
+- Narration should not dominate the story.
+- Use:
+नैरेटर
+Narration
+
+PACING / RETENTION RULES
+- Avoid long static introductions.
+- Avoid repeated information.
+- Avoid unnecessary descriptions.
+- Avoid repeating the same emotional beat.
+- Keep the central conflict moving.
+- Each major section should increase conflict, reveal information, change a relationship, raise stakes, create/answer a question, prepare a payoff, or move toward the twist.
+
+EMOTIONAL RETENTION
+Use a combination of:
+- Curiosity
+- Emotional investment
+- Stakes
+- Uncertainty
+- Hope
+- Setback
+- Revelation
+- Payoff
+
+ORIGINALITY / ANTI-COPY
+- Create original characters, dialogue, scenes, events, settings, conflicts, twists, and resolutions.
+- Do not copy dialogue.
+- Do not reproduce reference scenes unnecessarily.
+- Do not merely replace character names in an existing story.
+- Do not replicate an existing plot beat-for-beat.
+- Structural storytelling patterns may be preserved, but narrative content must be original.
+
+LANGUAGE RULES
+For Hindi output:
+- Character names in Hindi.
+- Dialogue in Hindi.
+- Narration in Hindi.
+- Natural conversational language.
+- Avoid unnecessarily complicated literary vocabulary.
+- Avoid robotic or overly formal AI phrasing.
+- Make the script suitable for spoken YouTube/animation storytelling.
+
+STORY LENGTH
+- Generate a complete story rather than a short paragraph.
+- Include all required narrative beats.
+- Do not artificially truncate the story.
+- No fixed numerical word count, scene count, character count, token budget, or duration has been formally defined in the existing engine.
+- Do not invent a fixed length as existing engine logic.
+
+OUTPUT FORMAT
+Title
+
+नैरेटर
+Narration
+
+Character Name
+Dialogue
+
+Character Name
+Dialogue
+
+Continue through:
+Hook → Setup → Conflict → Escalation → Low Point → Discovery → Twist → Climax → Payoff → Consequence → Moral
+
+Do not use emotion tags such as:
+[sad]
+[angry]
+[crying]
+etc.
+
+EDIT / REGENERATE BEHAVIOR
+When regenerating:
+- Preserve the requested Title unless changed.
+- Preserve the intended Hook unless changed.
+- Preserve the intended Twist unless changed.
+- Preserve the intended Moral unless changed.
+- Generate a fresh narrative execution when regeneration is requested.
+- Never switch to Horror Story Engine logic.
+
+FRONTEND UI REQUIREMENTS
+Future unified interface:
+STORY GENERATOR
+├── HORROR STORY
+└── MORAL STORY
+
+When MORAL STORY is selected, activate Model Story Engine.
+
+Moral Story fields:
+- Title
+- First 10-Second Hook
+- Complete Story Twist
+- Moral
+
+Do not silently replace these with Horror-specific fields.
+
+BACKEND / API REQUIREMENTS
+The Model Story Engine must remain an independent backend module.
+
+Logical routing:
+STORY GENERATOR
+├── story_type = horror → Horror Story Engine
+└── story_type = moral → Model Story Engine
+
+Moral requests must route to Model Story Engine.
+
+Logical input object:
+{
+  "story_type": "moral",
+  "title": "...",
+  "hook": "...",
+  "twist": "...",
+  "moral": "..."
+}
+
+Logical output:
+{
+  "story_type": "moral",
+  "engine": "Model Story Engine",
+  "title": "...",
+  "story": "..."
+}
+
+These field names are the logical model, not a claim about an already-deployed API contract.
+
+The backend must enforce engine routing rather than relying only on frontend selection.
+
+SPECIAL FORMULAS
+
+FOUR-INPUT FORMULA
+TITLE + HOOK + TWIST + MORAL
+= MODEL STORY ENGINE INPUT
+
+MAIN NARRATIVE
+HOOK
+→ SETUP
+→ CONFLICT
+→ FALSE HOPE
+→ ESCALATION
+→ LOW POINT
+→ CLUE / DISCOVERY
+→ TWIST
+→ CLIMAX
+→ PAYOFF
+→ CONSEQUENCE
+→ MORAL
+
+EMOTIONAL
+NORMAL
+→ CONCERN
+→ PRESSURE
+→ HOPE
+→ SETBACK
+→ EMOTIONAL BREAK
+→ DISCOVERY
+→ RELIEF / EMOTIONAL RELEASE
+→ RESOLUTION
+
+RETENTION
+QUESTION
+→ PARTIAL ANSWER
+→ NEW QUESTION
+→ HIGHER STAKES
+→ EMOTIONAL INVESTMENT
+→ REVELATION
+→ PAYOFF
+
+IMPORTANT EXISTING STORY DNA
+- Immediate hook.
+- Underdog/protagonist where appropriate.
+- External practical or social problem.
+- False solution where appropriate.
+- Escalation.
+- Hidden truth.
+- Clue/evidence.
+- Emotional low point.
+- Revelation.
+- Consequence.
+- Community/family payoff where appropriate.
+- Moral.
+
+IMPORTANT RULES THAT MUST NOT BE LOST
+1. Model Story Engine is independent.
+2. Do not mix Horror logic into Moral stories.
+3. User-defined Twist has high priority.
+4. User-defined Moral has high priority.
+5. Hook is critical.
+6. Story must escalate.
+7. Emotional low point is important.
+8. Twist requires buildup.
+9. Earlier details can become later payoffs.
+10. Dialogue should dominate over unnecessary narration.
+11. No emotion tags.
+12. Moral should emerge from events.
+13. Reference stories are structural references, not copy sources.
+14. Use natural human-style language.
+15. Complete the story after the twist.
+
+MORAL-SPECIFIC LOGIC
+The Moral Story Engine is organized around a lesson/value.
+Possible thematic areas include:
+- Kindness
+- Humanity
+- Greed
+- Honesty
+- Sacrifice
+- Hard work
+- Practical wisdom
+- Family
+- Community
+- Perseverance
+- Consequences of selfishness
+- Helping others
+
+The exact moral is determined by the user.
+
+ENGINE SEPARATION
+CORE ENGINE LOGIC:
+- Concept parsing
+- Character construction
+- Conflict
+- Escalation
+- Emotional progression
+- Low point
+- Reveal
+- Climax
+- Payoff
+- Ending
+- Dialogue/narration formatting
+- Retention
+- Originality
+
+MORAL-STORY-SPECIFIC LOGIC:
+- Moral as primary input
+- Lesson-driven narrative
+- Human/social/family/value-based conflicts
+- Moral demonstrated through consequences
+- Instructive/meaningful resolution where appropriate
+- Final lesson connected to protagonist journey
+
+NOT AUTOMATICALLY PART OF MORAL ENGINE:
+- Supernatural entities
+- Ghosts
+- Curses
+- Hauntings
+- Paranormal evidence
+- Horror-specific fear escalation
+- Horror-specific ending logic
+
+FORMAL VS UNDEFINED
+FORMALLY DEFINED:
+- Engine name
+- Purpose
+- Four primary inputs
+- Hook-first approach
+- Dialogue-heavy style
+- Controlled narration
+- Escalating conflict
+- Emotional low point
+- Twist
+- Climax
+- Payoff
+- Moral ending
+- Originality
+- Hindi conversational style
+- Character-name/dialogue format
+- Narrator format
+- No emotion tags
+- Independent identity
+- Separation from Horror Engine
+
+NOT FORMALLY DEFINED:
+- Exact word-count ranges
+- Exact scene-count ranges
+- Exact character-count limits
+- Exact token budgets
+- Temperature
+- Top-p
+- Specific AI model
+- Specific API provider
+- Exact database schema
+- Exact endpoint URLs
+- Exact credit cost
+- Exact regeneration API
+- Exact frontend framework
+- Exact backend framework
+- Exact streaming protocol
+
+Do not falsely present undefined items as existing engine rules.
+
+MERGE REQUIREMENTS
+
+When later merged into the unified STORY GENERATOR:
+
+1. Preserve the engine identity: Model Story Engine.
+2. Keep MORAL STORY as a distinct branch.
+3. Select STORY TYPE before generation.
+4. Route story_type = moral only to Model Story Engine.
+5. Preserve all four Moral inputs:
+   - Title
+   - First 10-Second Hook
+   - Complete Story Twist
+   - Moral
+6. Preserve the complete Moral narrative formula.
+7. Keep Moral character logic independent.
+8. Keep Moral emotional logic independent.
+9. Keep Moral twist/climax/payoff logic independent.
+10. Keep Moral lesson logic independent.
+11. Preserve required dialogue/narration formatting.
+12. Preserve no-emotion-tag rule.
+13. Preserve dialogue-heavy pacing.
+14. Preserve originality/anti-copy behavior.
+15. Do not import Horror-specific rules.
+16. Do not let Horror rules modify Moral output.
+17. Do not replace the Moral engine with a generic prompt.
+18. User-defined Twist and Moral remain high-priority.
+19. Complete the story after the twist with climax, payoff, consequence, and moral.
+20. Future changes to Horror logic must not silently alter Moral logic, and vice versa.
+
+FINAL ARCHITECTURE
+
+STORY GENERATOR
+│
+├── HORROR STORY
+│   └── Existing Horror Story Engine
+│
+└── MORAL STORY
+    └── Model Story Engine
+        ├── Title
+        ├── First 10-Second Hook
+        ├── Complete Story Twist
+        ├── Moral
+        │
+        ├── Hook
+        ├── Setup
+        ├── Conflict
+        ├── False Hope
+        ├── Escalation
+        ├── Emotional Low Point
+        ├── Clue / Discovery
+        ├── Twist
+        ├── Climax
+        ├── Payoff
+        ├── Consequence
+        └── Moral Ending
+
+IMPORTANT:
+Do NOT merge this engine with the Horror Story Engine yet.
+Do NOT redesign or simplify this engine.
+Do NOT remove existing logic.
+Do NOT add unverified controls as if they already exist.
+The purpose of this specification is to preserve the existing Model Story Engine so it can later be integrated as an independent MORAL STORY branch inside a unified STORY GENERATOR.

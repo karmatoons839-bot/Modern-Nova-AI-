@@ -1,0 +1,35 @@
+CREATE OR REPLACE FUNCTION public.has_role(_user_id uuid, _role public.app_role) RETURNS boolean LANGUAGE sql STABLE SECURITY DEFINER SET search_path=public AS $$ SELECT EXISTS(SELECT 1 FROM public.user_roles WHERE user_id=_user_id AND (role=_role OR (_role='admin' AND role='owner'))) $$;
+CREATE OR REPLACE FUNCTION public.hosting_allowed(_user uuid) RETURNS boolean LANGUAGE sql STABLE SECURITY DEFINER SET search_path=public AS $$ SELECT EXISTS(SELECT 1 FROM public.user_roles WHERE user_id=_user AND role IN ('owner','admin')) OR EXISTS(SELECT 1 FROM public.admin_members WHERE user_id=_user) $$;
+GRANT EXECUTE ON FUNCTION public.hosting_allowed(uuid) TO authenticated,service_role;
+CREATE OR REPLACE FUNCTION public.spend_credits(_user uuid,_tool text,_cost integer,_prompt text,_style text) RETURNS uuid LANGUAGE plpgsql SECURITY DEFINER SET search_path=public AS $$ DECLARE bal integer; st text; gid uuid; BEGIN
+IF _cost IS NULL OR _cost<0 THEN RAISE EXCEPTION 'INVALID_CREDIT_COST'; END IF;
+SELECT credits,status INTO bal,st FROM public.profiles WHERE id=_user FOR UPDATE;
+IF bal IS NULL THEN RAISE EXCEPTION 'PROFILE_NOT_FOUND'; END IF;
+IF st='suspended' THEN RAISE EXCEPTION 'ACCOUNT_SUSPENDED'; END IF;
+IF bal<_cost THEN RAISE EXCEPTION 'INSUFFICIENT_CREDITS'; END IF;
+UPDATE public.profiles SET credits=credits-_cost,updated_at=now() WHERE id=_user;
+INSERT INTO public.generations(user_id,tool,prompt,style,cost) VALUES(_user,_tool,left(_prompt,20000),_style,_cost) RETURNING id INTO gid;
+INSERT INTO public.credit_ledger(user_id,amount,reason,generation_id) VALUES(_user,-_cost,initcap(_tool)||' generation',gid);
+RETURN gid; END $$;
+CREATE OR REPLACE FUNCTION public.api_is_unlimited(_user uuid) RETURNS boolean LANGUAGE sql STABLE SECURITY DEFINER SET search_path=public AS $$ SELECT false $$;
+CREATE OR REPLACE FUNCTION public.api_spend(_user uuid,_api uuid,_service text,_cost bigint,_request text) RETURNS uuid LANGUAGE plpgsql SECURITY DEFINER SET search_path=public AS $$ DECLARE w public.api_wallets; tx uuid; BEGIN
+IF _cost IS NULL OR _cost<0 THEN RAISE EXCEPTION 'INVALID_CREDIT_COST'; END IF;
+INSERT INTO public.api_wallets(user_id) VALUES(_user) ON CONFLICT DO NOTHING;
+SELECT * INTO w FROM public.api_wallets WHERE user_id=_user FOR UPDATE;
+IF w.balance<_cost THEN RAISE EXCEPTION 'INSUFFICIENT_API_CREDITS'; END IF;
+UPDATE public.api_wallets SET balance=balance-_cost,updated_at=now() WHERE user_id=_user;
+INSERT INTO public.api_credit_transactions(user_id,api_id,kind,service,request_id,previous_balance,credits,new_balance,status) VALUES(_user,_api,'usage',_service,_request,w.balance,_cost,w.balance-_cost,'pending') RETURNING id INTO tx;
+RETURN tx; END $$;
+CREATE OR REPLACE FUNCTION public.disable_unlimited_privilege() RETURNS trigger LANGUAGE plpgsql SET search_path=public AS $$ BEGIN NEW.unlimited_credits:=false; RETURN NEW; END $$;
+CREATE TRIGGER finite_admin_credits BEFORE INSERT OR UPDATE ON public.admin_members FOR EACH ROW EXECUTE FUNCTION public.disable_unlimited_privilege();
+COMMENT ON COLUMN public.admin_members.unlimited_credits IS 'DEPRECATED: all accounts use finite wallet balances; writes forced false';
+DROP POLICY hosting_resources_owner ON public.hosting_resources;
+CREATE POLICY hosting_resources_staff ON public.hosting_resources FOR ALL TO authenticated USING(public.hosting_allowed(auth.uid())) WITH CHECK(public.hosting_allowed(auth.uid()));
+DROP POLICY hosting_plans_owner ON public.hosting_plans;
+CREATE POLICY hosting_plans_staff ON public.hosting_plans FOR ALL TO authenticated USING(public.hosting_allowed(auth.uid())) WITH CHECK(public.hosting_allowed(auth.uid()));
+DROP POLICY hosting_operations_owner ON public.hosting_operations;
+CREATE POLICY hosting_operations_staff ON public.hosting_operations FOR ALL TO authenticated USING(public.hosting_allowed(auth.uid())) WITH CHECK(public.hosting_allowed(auth.uid()));
+CREATE TABLE public.hosting_configuration(id boolean PRIMARY KEY DEFAULT true CHECK(id),service_url text NOT NULL,encrypted_token text NOT NULL,updated_by uuid NOT NULL,updated_at timestamptz NOT NULL DEFAULT now());
+GRANT ALL ON public.hosting_configuration TO service_role;
+ALTER TABLE public.hosting_configuration ENABLE ROW LEVEL SECURITY;
+COMMENT ON TABLE public.hosting_configuration IS 'Owner-authorized server-only encrypted provisioning credentials; never accessible through browser Data API';

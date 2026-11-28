@@ -1,0 +1,275 @@
+{
+  "version": 1,
+  "knowledgeVersion": "2026-10-22.1",
+  "sourceRevision": "0bc7dc9392c1d27ca29dfd3666f39e65d92c48d0e5102db3fbfe924e36343291",
+  "capturedAt": "2026-10-22T09:19:18.722544+00:00",
+  "pages": [
+    {
+      "id": "tools",
+      "path": "/tools",
+      "sourceUrl": "https://modernnova.in/tools",
+      "status": "captured",
+      "assetPath": "/__l5e/assets-v1/8d669100-425e-4776-9ac7-62560603b60d/telegram-help-tools.jpg",
+      "sha256": "e34ae9b03edce22f1f598779ce16c11f5d517c32fcafa762271c691b2fb7a62f",
+      "heading": "Choose a tool",
+      "capturedAt": "2026-10-22T09:19:18.722544+00:00"
+    },
+    {
+      "id": "story",
+      "path": "/story",
+      "sourceUrl": "https://modernnova.in/story",
+      "status": "captured",
+      "assetPath": "/__l5e/assets-v1/734fde13-889c-4069-9c5c-3b8c3e419c08/telegram-help-story.jpg",
+      "sha256": "52f4e6977159774197f3906283b6ed58c2f36f25615c548d6bad54785502a27f",
+      "heading": "Script Studio",
+      "capturedAt": "2026-10-22T09:19:18.722544+00:00"
+    },
+    {
+      "id": "studio",
+      "path": "/studio",
+      "sourceUrl": "https://modernnova.in/studio",
+      "status": "captured",
+      "assetPath": "/__l5e/assets-v1/62fd5c06-9411-4352-9ca8-aca59f39219f/telegram-help-studio.jpg",
+      "sha256": "6778a285def4b8b6b852aebe0ff90e9b86c750b78a3d3d778f08fea9538f1c01",
+      "heading": "Voice Studio",
+      "capturedAt": "2026-10-22T09:19:18.722544+00:00"
+    },
+    {
+      "id": "image",
+      "path": "/image",
+      "sourceUrl": "https://modernnova.in/image",
+      "status": "captured",
+      "assetPath": "/__l5e/assets-v1/bf95c186-9537-4216-b911-338a82c4086b/telegram-help-image.jpg",
+      "sha256": "60f91d6e04860de4d3aad0e706839cafbe6ff1c18e5ad2609e30d3768a9ea8c0",
+      "heading": "Text to Image",
+      "capturedAt": "2026-10-22T09:19:18.722544+00:00"
+    },
+    {
+      "id": "thumbnail",
+      "path": "/thumbnail",
+      "sourceUrl": "https://modernnova.in/thumbnail",
+      "status": "captured",
+      "assetPath": "/__l5e/assets-v1/86c1b4b5-5b67-45be-8283-a13de3f634d1/telegram-help-thumbnail.jpg",
+      "sha256": "92fa2ff1dafd806fd2adcadc03a2dee32751231c9b03191b3369c3e10b908733",
+      "heading": "Thumbnail Generator",
+      "capturedAt": "2026-10-22T09:19:18.722544+00:00"
+    },
+    {
+      "id": "auth",
+      "path": "/auth",
+      "sourceUrl": "https://modernnova.in/auth",
+      "status": "captured",
+      "assetPath": "/__l5e/assets-v1/cb8e5759-970a-440f-8825-e9bbd421b73a/telegram-help-auth.jpg",
+      "sha256": "43de2f332ac8ec165b258826ecfbab12a5b642ad77ada3688e8d800e7a192274",
+      "heading": "Log in to\nModern Nova AI",
+      "capturedAt": "2026-10-22T09:19:18.722544+00:00"
+    },
+    {
+      "id": "pricing",
+      "path": "/pricing",
+      "sourceUrl": "https://modernnova.in/pricing",
+      "status": "captured",
+      "assetPath": "/__l5e/assets-v1/fa4546ad-8c8c-4558-955c-858e1faaa8d5/telegram-help-pricing.jpg",
+      "sha256": "5668adfc4a48b9c8d21cb4d5b0bd2b604d943f12a921299a2142810a9156331b",
+      "heading": "Pricing & Plans",
+      "capturedAt": "2026-10-22T09:19:18.722544+00:00"
+    },
+    {
+      "id": "help",
+      "path": "/help",
+      "sourceUrl": "https://modernnova.in/help",
+      "status": "captured",
+      "assetPath": "/__l5e/assets-v1/342e16e9-bbc3-4c76-8b7c-3000e78a106e/telegram-help-help.jpg",
+      "sha256": "7aa988ff7b1076ec54572c99dbfd09c433594f6df9c004762a1a5dcd7f5982de",
+      "heading": "Help & Support",
+      "capturedAt": "2026-10-22T09:19:18.722544+00:00"
+    }
+  ],
+  "review": [
+    {
+      "id": "settings",
+      "reason": "PRIVATE_OR_OWNER_PAGE_NOT_PUBLICLY_CAPTURED"
+    },
+    {
+      "id": "history",
+      "reason": "PRIVATE_OR_OWNER_PAGE_NOT_PUBLICLY_CAPTURED"
+    },
+    {
+      "id": "developer",
+      "reason": "PRIVATE_OR_OWNER_PAGE_NOT_PUBLICLY_CAPTURED"
+    },
+    {
+      "id": "telegram",
+      "reason": "PRIVATE_OR_OWNER_PAGE_NOT_PUBLICLY_CAPTURED"
+    },
+    {
+      "id": "voices",
+      "reason": "CATALOG_INSPECTED_SEPARATELY_SCREENSHOT_NOT_CAPTURED"
+    }
+  ],
+  "history": [
+    {
+      "capturedAt": "2026-10-22T09:11:26.578777+00:00",
+      "knowledgeVersion": "2026-10-22.1",
+      "sourceRevision": "c3e196351bd01cd86caea06571710ebae7f39faa01d47f8d1da8bcddbf21ae9d",
+      "pages": [
+        {
+          "id": "tools",
+          "path": "/tools",
+          "sourceUrl": "https://modernnova.in/tools",
+          "status": "captured",
+          "assetPath": "/__l5e/assets-v1/6a2de7cb-9ad8-4b05-9c1a-8b03284b771f/telegram-help-tools.jpg",
+          "heading": "Choose a tool",
+          "capturedAt": "2026-10-22T09:11:26.578777+00:00"
+        },
+        {
+          "id": "story",
+          "path": "/story",
+          "sourceUrl": "https://modernnova.in/story",
+          "status": "captured",
+          "assetPath": "/__l5e/assets-v1/01056e65-3dc1-4c94-90aa-ddc57011fd3e/telegram-help-story.jpg",
+          "heading": "Script Studio",
+          "capturedAt": "2026-10-22T09:11:26.578777+00:00"
+        },
+        {
+          "id": "studio",
+          "path": "/studio",
+          "sourceUrl": "https://modernnova.in/studio",
+          "status": "captured",
+          "assetPath": "/__l5e/assets-v1/02808a1f-ec62-4773-9358-c561167ef620/telegram-help-studio.jpg",
+          "heading": "Voice Studio",
+          "capturedAt": "2026-10-22T09:11:26.578777+00:00"
+        },
+        {
+          "id": "image",
+          "path": "/image",
+          "sourceUrl": "https://modernnova.in/image",
+          "status": "captured",
+          "assetPath": "/__l5e/assets-v1/6f497b9b-08df-4d5e-bbf1-7d2aadcde610/telegram-help-image.jpg",
+          "heading": "Text to Image",
+          "capturedAt": "2026-10-22T09:11:26.578777+00:00"
+        },
+        {
+          "id": "thumbnail",
+          "path": "/thumbnail",
+          "sourceUrl": "https://modernnova.in/thumbnail",
+          "status": "captured",
+          "assetPath": "/__l5e/assets-v1/2afc7346-bede-46cc-a7a8-2467a21ff680/telegram-help-thumbnail.jpg",
+          "heading": "Thumbnail Generator",
+          "capturedAt": "2026-10-22T09:11:26.578777+00:00"
+        },
+        {
+          "id": "auth",
+          "path": "/auth",
+          "sourceUrl": "https://modernnova.in/auth",
+          "status": "captured",
+          "assetPath": "/__l5e/assets-v1/08d01887-1d0a-4caa-9517-6a7a6fae1361/telegram-help-auth.jpg",
+          "heading": "Log in to\nModern Nova AI",
+          "capturedAt": "2026-10-22T09:11:26.578777+00:00"
+        },
+        {
+          "id": "pricing",
+          "path": "/pricing",
+          "sourceUrl": "https://modernnova.in/pricing",
+          "status": "captured",
+          "assetPath": "/__l5e/assets-v1/7ed4207d-6204-492e-929b-134a243c6cfb/telegram-help-pricing.jpg",
+          "heading": "Pricing & Plans",
+          "capturedAt": "2026-10-22T09:11:26.578777+00:00"
+        },
+        {
+          "id": "help",
+          "path": "/help",
+          "sourceUrl": "https://modernnova.in/help",
+          "status": "captured",
+          "assetPath": "/__l5e/assets-v1/5ed4aef1-83b5-49dc-be01-a8ee02d549e0/telegram-help-help.jpg",
+          "heading": "Help & Support",
+          "capturedAt": "2026-10-22T09:11:26.578777+00:00"
+        }
+      ]
+    },
+    {
+      "capturedAt": "2026-10-22T09:15:32.719453+00:00",
+      "knowledgeVersion": "2026-10-22.1",
+      "sourceRevision": "8207721818f7eeccdc1f6bc47530d5aecd8e3a22025215e5e0d341ec4fedf3af",
+      "pages": [
+        {
+          "id": "tools",
+          "path": "/tools",
+          "sourceUrl": "https://modernnova.in/tools",
+          "status": "captured",
+          "assetPath": "/__l5e/assets-v1/cda07053-1b2e-4a53-93be-e2a31575ade3/telegram-help-tools.jpg",
+          "heading": "Choose a tool",
+          "capturedAt": "2026-10-22T09:15:32.719453+00:00"
+        },
+        {
+          "id": "story",
+          "path": "/story",
+          "sourceUrl": "https://modernnova.in/story",
+          "status": "captured",
+          "assetPath": "/__l5e/assets-v1/1d139c9a-cc4a-4f43-b21e-d033dc35061c/telegram-help-story.jpg",
+          "heading": "Script Studio",
+          "capturedAt": "2026-10-22T09:15:32.719453+00:00"
+        },
+        {
+          "id": "studio",
+          "path": "/studio",
+          "sourceUrl": "https://modernnova.in/studio",
+          "status": "captured",
+          "assetPath": "/__l5e/assets-v1/f50df3a7-b899-4ce7-b43c-22c1ac7e2ce2/telegram-help-studio.jpg",
+          "heading": "Voice Studio",
+          "capturedAt": "2026-10-22T09:15:32.719453+00:00"
+        },
+        {
+          "id": "image",
+          "path": "/image",
+          "sourceUrl": "https://modernnova.in/image",
+          "status": "captured",
+          "assetPath": "/__l5e/assets-v1/78a6a4ce-410e-4ba7-9414-da9496b1577d/telegram-help-image.jpg",
+          "heading": "Text to Image",
+          "capturedAt": "2026-10-22T09:15:32.719453+00:00"
+        },
+        {
+          "id": "thumbnail",
+          "path": "/thumbnail",
+          "sourceUrl": "https://modernnova.in/thumbnail",
+          "status": "captured",
+          "assetPath": "/__l5e/assets-v1/365b18db-dcb4-4bc7-beec-9384c1d50719/telegram-help-thumbnail.jpg",
+          "heading": "Thumbnail Generator",
+          "capturedAt": "2026-10-22T09:15:32.719453+00:00"
+        },
+        {
+          "id": "auth",
+          "path": "/auth",
+          "sourceUrl": "https://modernnova.in/auth",
+          "status": "captured",
+          "assetPath": "/__l5e/assets-v1/50ab698a-d81c-4afa-83a8-92a1b69c54b5/telegram-help-auth.jpg",
+          "heading": "Log in to\nModern Nova AI",
+          "capturedAt": "2026-10-22T09:15:32.719453+00:00"
+        },
+        {
+          "id": "pricing",
+          "path": "/pricing",
+          "sourceUrl": "https://modernnova.in/pricing",
+          "status": "captured",
+          "assetPath": "/__l5e/assets-v1/f26ac2dc-a899-4e00-b278-2e559963fc9f/telegram-help-pricing.jpg",
+          "heading": "Pricing & Plans",
+          "capturedAt": "2026-10-22T09:15:32.719453+00:00"
+        },
+        {
+          "id": "help",
+          "path": "/help",
+          "sourceUrl": "https://modernnova.in/help",
+          "status": "captured",
+          "assetPath": "/__l5e/assets-v1/063b67fe-ab8e-4e45-b557-b1531c3a0472/telegram-help-help.jpg",
+          "heading": "Help & Support",
+          "capturedAt": "2026-10-22T09:15:32.719453+00:00"
+        }
+      ]
+    }
+  ],
+  "knowledgeSnapshot": {
+    "src/lib/telegram-knowledge.ts": "import { PLANS, COST_LABELS } from \"./plans\";\nimport { SCRIPT_LANGUAGES, SCRIPT_TYPES } from \"./script-config\";\n\nexport const KNOWLEDGE_VERSION = \"2026-10-22.1\";\nexport type KnowledgeEntry = { id: string; name: string; path: string; access: \"public\" | \"signed-in\" | \"owner\"; lifecycle: \"current\" | \"discontinued\"; steps: string[]; settings: string[]; limits: string[] };\nexport const WEBSITE_KNOWLEDGE: KnowledgeEntry[] = [\n  { id: \"tools\", name: \"Tools directory\", path: \"/tools\", access: \"public\", lifecycle: \"current\", steps: [\"Open modernnova.in, select Explore Tools, then choose a tool.\", \"Sign in before generating; a visible form is not proof of successful generation.\"], settings: [\"Script Studio, Voice Studio, Image Generator, Thumbnail Generator\"], limits: [\"Bot explains tools; it does not generate media in Telegram.\"] },\n  { id: \"story\", name: \"Script Studio\", path: \"/story\", access: \"public\", lifecycle: \"current\", steps: [\"Enter Script Title and Describe Your Script.\", \"Choose a searchable language (Hindi default), Horror or Moral type, and 1–30 minutes.\", \"Select Generate; then edit, copy, save text, regenerate or send the script to Voice Studio.\"], settings: [...SCRIPT_TYPES.map(t => t.label), ...SCRIPT_LANGUAGES.map(l => `${l.name}${\"experimental\" in l ? \" (experimental dialect)\" : \"\"}`)], limits: [\"Generation requires login and sufficient credits.\", \"Unsupported language is rejected. Dialect quality needs fluent review.\", \"Title: Horror 2–2,000 characters; Moral 1–300. Description up to 20,000 characters.\", \"20 credits first minute, +15 per extra minute. Engine errors are not successful outputs.\"] },\n  { id: \"studio\", name: \"Voice Studio (formerly Voice Over)\", path: \"/studio\", access: \"public\", lifecycle: \"current\", steps: [\"Paste a script or use the Script Studio hand-off.\", \"Analyze it, review characters and lines, then assign a voice to each character.\", \"Assign exactly one emotion to each line, manually or with Add Emotions.\", \"Generate audio, inspect per-line errors, play completed segments and use available download controls.\", \"Check signed-in Generation History for outputs actually saved; browser Projects are local, not recovery backups.\"], settings: [\"400 catalog profiles; accessible voices depend on plan\", \"Per-character voice, per-line locked emotion\"], limits: [COST_LABELS.voice, \"Audio generation requires login; locked voice or low credits is rejected.\", \"Analysis allows up to 20,000 characters; emotion tagging 1–300 lines.\", \"Stored audio can be recovered only if completed, owned by the linked account and still present in storage. No fabricated preview or file.\"] },\n  { id: \"image\", name: \"Image Generator\", path: \"/image\", access: \"public\", lifecycle: \"current\", steps: [\"Describe the image.\", \"Choose a style and Square 1:1, Portrait 9:16 or Landscape 16:9.\", \"Sign in, select Generate, then download or regenerate a successful result.\"], settings: [\"2D, 3D, anime, cartoon, comic, horror, moral-story, cinematic, realistic, fantasy, storybook, watercolor, pixel-art, custom\"], limits: [COST_LABELS.image, \"Prompt 1–100,000 characters; server dimensions 512–1,536.\", \"Invalid settings, login, credit and engine errors are surfaced. UI does not expose every API setting.\"] },\n  { id: \"thumbnail\", name: \"Thumbnail Generator\", path: \"/thumbnail\", access: \"public\", lifecycle: \"current\", steps: [\"Enter a thumbnail idea or select a quick idea.\", \"Choose style and YouTube, Square or Shorts ratio.\", \"Enable title text if wanted and enter the title.\", \"Sign in, Generate, then download or regenerate the successful image.\"], settings: [\"Visible styles: 2D, realistic, cinematic, 3D, cartoon, horror, custom\", \"API additionally supports youtube, story, moral-story, gaming, kids, news\"], limits: [COST_LABELS.thumbnail, \"Prompt 3–100,000 characters; title at most 2,000; server dimensions 360–1,536.\", \"A larger API style allowlist does not imply every style has a website button.\"] },\n  { id: \"auth\", name: \"Sign in and recovery\", path: \"/auth\", access: \"public\", lifecycle: \"current\", steps: [\"Open Log in; use Google or email/password.\", \"For signup choose the signup form; follow any email confirmation required.\", \"For forgotten passwords select Forgot password and use the email reset link.\"], settings: [\"Google and email sign-in UI\"], limits: [\"A shown Google button does not prove consent or provider configuration works.\", \"Never give the bot a password, OTP or API secret.\"] },\n  { id: \"pricing\", name: \"Plans and payments\", path: \"/pricing\", access: \"public\", lifecycle: \"current\", steps: [\"View current plans on Pricing; sign in to buy.\", \"Use the payment method offered by checkout; for manual UPI submit the 12-digit UTR.\", \"Only verified payment activates plan/credits; screenshot alone does not prove bank receipt.\", \"Paid access normally lasts 30 days; no automatic renewal is configured.\"], settings: PLANS.map(p => `${p.name}: ₹${p.priceInr}, ${p.credits} credits, ${p.voices} voices`), limits: [\"Never promise approval, refunds or a balance without authoritative account checks.\", \"Custom offers require verified owner confirmation and customer account linking; only the original owner QR is used.\"] },\n  { id: \"help\", name: \"Help and support\", path: \"/help\", access: \"public\", lifecycle: \"current\", steps: [\"Open Help and choose a FAQ.\", \"For private problems message the bot privately: /support <problem> or /recovery <tool, approximate date, problem>.\", \"Track your ticket with /status <ticket ID>.\"], settings: [\"Credit, stopped-generation, language, file, upgrade and password FAQ pages\"], limits: [\"Do not repeat public FAQ refund claims as proof a particular user's refund succeeded.\"] },\n  { id: \"settings\", name: \"Account settings and Telegram link\", path: \"/settings\", access: \"signed-in\", lifecycle: \"current\", steps: [\"Sign in → three-dot menu → Settings.\", \"Choose English, English + Hindi or Hindi for website language (separate from Script Studio output language).\", \"Telegram → Link account → Open Telegram and Start; return and Refresh status.\", \"Choose account/announcement consent or Unlink.\"], settings: [\"Expiring one-time verified account link\", \"Notification preferences\"], limits: [\"An email claim is not identity proof. Never share signed-in settings screenshots publicly.\"] },\n  { id: \"history\", name: \"Generation History\", path: \"/history\", access: \"signed-in\", lifecycle: \"current\", steps: [\"Sign in → three-dot menu → Generation History.\", \"Open a completed output and use its available download control.\", \"For Telegram recovery link your account and use /files then /file <generation ID>.\"], settings: [\"Saved stories, voices, images and thumbnails\"], limits: [\"Failed, deleted, unstored or another user's outputs cannot be recovered.\"] },\n  { id: \"developer\", name: \"Developer API\", path: \"/developer\", access: \"signed-in\", lifecycle: \"current\", steps: [\"Sign in → three-dot menu → Developer API.\", \"Manage API projects/keys and read the displayed request instructions.\"], settings: [\"POST /api/public/v1/<service>/generate\", \"Separate API wallet, not website credits\"], limits: [\"Keep API keys private. Never provide keys or authenticated screenshots to public chat.\"] },\n  { id: \"telegram\", name: \"Owner administration\", path: \"/telegram\", access: \"owner\", lifecycle: \"current\", steps: [\"Website owner signs in → Telegram Admin Setup.\", \"Verify numeric identity privately, validate groups and complete real acceptance before activation.\", \"Review tickets, offers, deliveries and actions; sensitive changes need explicit confirmation.\"], settings: [\"Owner-only setup; exact sender and allowlisted chat\", \"Private admin group separate from support group\"], limits: [\"Any group member can ask public website questions, but group membership never grants admin power.\", \"No automatic ban/delete moderation is implemented; moderation remains with human group administrators.\"] },\n  { id: \"voices\", name: \"Voice Library\", path: \"/voices\", access: \"public\", lifecycle: \"current\", steps: [\"Search by voice name or ID; filter gender, Hindi/English, emotion, style and age 6–80.\", \"Load more profiles as needed; select an available voice.\", \"Preview calls the actual speech engine and can require login, plan access and credits; never assume it is free cached audio.\"], settings: [\"400 voice profiles; paginated catalog\", \"Free 50 / Creator 150 / Pro 250 / Premium 400 accessible profiles\"], limits: [\"A catalog profile is not proof its engine worked. Surface the real preview error.\"] },\n  { id: \"projects\", name: \"Local projects\", path: \"/projects\", access: \"signed-in\", lifecycle: \"current\", steps: [\"Open Projects on the device used for Voice Studio.\", \"Review local project names/counts, open the studio or delete a local entry.\"], settings: [\"Browser-local mn-projects list\"], limits: [\"Not a cloud audio archive; clearing browser data can remove local entries. Do not promise recovery.\"] },\n  { id: \"account\", name: \"Account, profile, credits and payments\", path: \"/account\", access: \"signed-in\", lifecycle: \"current\", steps: [\"Three-dot menu → Account/Profile for personal details; My Credits for authoritative balance and recent ledger.\", \"Payment History → payment order for verification state; Upgrade Plan opens existing checkout.\", \"Owner-only Admin handles users, team permissions, credits, plans, payments, promos and generations; Website Editor publishes whitelisted text/images only.\"], settings: [\"/account, /profile, /credits, /payments, /payment/<order>, /upgrade, /checkout/<plan>\", \"/admin and /site-editor are privilege-protected\", \"Public /about, /privacy, /terms; /reset-password needs a genuine recovery session\"], limits: [\"No bot response can grant admin rights or fabricate balance/payment approval.\", \"Displayed renewal/refund language is not proof of automatic renewal or a completed refund.\"] },\n  { id: \"music\", name: \"AI Music Maker\", path: \"\", access: \"public\", lifecycle: \"discontinued\", steps: [], settings: [], limits: [\"Not a current website tool. Legacy references are not an available music service; do not suggest a music generation workflow.\"] },\n];\n\nexport const PUBLIC_CAPTURE_PAGES = WEBSITE_KNOWLEDGE.filter(e => e.lifecycle === \"current\" && e.access === \"public\").map(({ id, path }) => ({ id, path }));\nexport function publicKnowledgeEntry(id: string) {\n  return WEBSITE_KNOWLEDGE.find(e => e.id === id && e.access === \"public\" && e.lifecycle === \"current\");\n}\nexport function telegramKnowledgeContext() {\n  return JSON.stringify({ version: KNOWLEDGE_VERSION, evidence: \"Inspected source/configuration, not blanket live-generation verification\", entries: WEBSITE_KNOWLEDGE });\n}",
+    "src/lib/plans.ts": "export type PlanId = \"free\" | \"creator\" | \"pro\" | \"premium\";\nexport type PaidPlanId = Exclude<PlanId, \"free\">;\nexport const PAID_PLAN_IDS = [\"creator\", \"pro\", \"premium\"] as const;\n\nexport const PLANS: {\n  id: PlanId;\n  name: string;\n  priceInr: number;\n  credits: number;\n  voices: number;\n  features: string[];\n}[] = [\n  {\n    id: \"free\",\n    name: \"Free\",\n    priceInr: 0,\n    credits: 1000,\n    voices: 50,\n    features: [\"1,000 credits\", \"50 AI voices\", \"Core AI tools access\", \"WAV download\"],\n  },\n  {\n    id: \"creator\",\n    name: \"Creator\",\n    priceInr: 199,\n    credits: 10000,\n    voices: 150,\n    features: [\"10,000 credits / month\", \"150 AI voices\", \"HD image generation\", \"HD thumbnail generation\", \"MP3 / WAV voice download\"],\n  },\n  {\n    id: \"pro\",\n    name: \"Pro\",\n    priceInr: 499,\n    credits: 25000,\n    voices: 250,\n    features: [\"25,000 credits / month\", \"250 AI voices\", \"HD image generation\", \"HD thumbnail generation\", \"MP3 / WAV voice download\"],\n  },\n  {\n    id: \"premium\",\n    name: \"Premium\",\n    priceInr: 999,\n    credits: 60000,\n    voices: 400,\n    features: [\"60,000 credits / month\", \"All 400 AI voices\", \"Highest-quality generation\", \"Priority generation\", \"MP3 / WAV download\", \"Premium voice & image options\"],\n  },\n];\n\nexport const COST_LABELS = { voice: \"100 credits / minute\", image: \"50 credits / image\", thumbnail: \"75 credits / thumbnail\" };\n\n/** Spread each plan's voices across genders: free = 1 of every 8, creator = 3, pro = 5, premium = all. */\nexport function voiceAllowed(voiceId: string, plan: PlanId) {\n  if (plan === \"premium\") return true;\n  const r = Number(voiceId.replace(/\\D/g, \"\")) % 8;\n  if (plan === \"pro\") return [1, 3, 4, 6, 7].includes(r);\n  if (plan === \"creator\") return r === 1 || r === 4 || r === 6;\n  return r === 1;\n}\n",
+    "src/lib/script-config.ts": "/** Shared UI/server language allowlist; dialect output is experimental, not a certified translation. */\nexport const SCRIPT_LANGUAGES = [\n  { name: \"Hindi\", native: \"हिन्दी\" }, { name: \"English\", native: \"English\" },\n  { name: \"Bengali\", native: \"বাংলা\" }, { name: \"Marathi\", native: \"मराठी\" },\n  { name: \"Tamil\", native: \"தமிழ்\" }, { name: \"Telugu\", native: \"తెలుగు\" },\n  { name: \"Gujarati\", native: \"ગુજરાતી\" }, { name: \"Kannada\", native: \"ಕನ್ನಡ\" },\n  { name: \"Malayalam\", native: \"മലയാളം\" }, { name: \"Punjabi\", native: \"ਪੰਜਾਬੀ\" },\n  { name: \"Urdu\", native: \"اردو\" }, { name: \"Odia\", native: \"ଓଡ଼ିଆ\" },\n  { name: \"Assamese\", native: \"অসমীয়া\" }, { name: \"Nepali\", native: \"नेपाली\" },\n  { name: \"Bhojpuri\", native: \"भोजपुरी\", experimental: true },\n  { name: \"Awadhi\", native: \"अवधी\", experimental: true },\n  { name: \"Marwari\", native: \"मारवाड़ी\", experimental: true },\n  { name: \"Haryanvi\", native: \"हरियाणवी\", experimental: true },\n] as const;\n\nexport function scriptLanguage(name: string) {\n  return SCRIPT_LANGUAGES.find((language) => language.name === name);\n}\n\nexport const SCRIPT_TYPES = [\n  { id: \"horror\", label: \"Horror script\" },\n  { id: \"moral\", label: \"Moral script\" },\n] as const;\nexport type ScriptType = (typeof SCRIPT_TYPES)[number][\"id\"];"
+  }
+}

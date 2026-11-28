@@ -1,0 +1,2 @@
+ALTER TABLE public.generations DROP CONSTRAINT generations_tool_check;
+ALTER TABLE public.generations ADD CONSTRAINT generations_tool_check CHECK (tool = ANY (ARRAY['voice','voice_full','image','thumbnail','story','music','video']));

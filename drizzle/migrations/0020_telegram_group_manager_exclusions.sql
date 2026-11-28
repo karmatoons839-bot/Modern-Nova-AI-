@@ -1,0 +1,2 @@
+ALTER TABLE public.telegram_broadcast_settings ADD COLUMN IF NOT EXISTS excluded_chat_ids text[] NOT NULL DEFAULT '{}';
+CREATE INDEX IF NOT EXISTS telegram_broadcast_log_created_idx ON public.telegram_broadcast_log (created_at DESC);

@@ -1,0 +1,1 @@
+ALTER TABLE public.earning_rewards ADD COLUMN IF NOT EXISTS inviter_name text, ADD COLUMN IF NOT EXISTS member_name text;
